@@ -6,7 +6,7 @@ This python script is used to extract data from a CORDIS dataset.
 
 There is a crucial problem with the CORDIS generic .csv file; It uses simple `,` and `"` for seperating different entries and marking multiline entries. The datasets however are filled with those symbols within the entries. Furthermore, there are multiple different languages being used within the dataset, often even very special characters. To avoid false parsing, the dataset needs to be manually prepared: 
 
-1. Get the the CORDIS datasets in Excel form (most likely from [here](https://data.europa.eu/euodp/de/data/dataset/cordisfp7projects)
+1. Get the the CORDIS datasets in Excel form (most likely from [here](https://data.europa.eu/euodp/de/data/dataset/cordisfp7projects))
 2. Export this dataset as a `.csv`
 3. Set `ᛘ` (U+16D8) as the multiline indicator and `ᛥ` (U+16e5) as the entry seperator
 4. Keep the filenames intact so `cordis` as well as `projects` or `organizations` is in it
