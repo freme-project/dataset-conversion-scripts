@@ -58,4 +58,10 @@
 			<version>1.1.1</version>
 		</dependency>
 	</dependencies>
+
+	<scm>
+		<connection>scm:git:git@github.com:freme-project/dataset-conversion-scripts.git</connection>
+		<url>scm:git:git@github.com:freme-project/dataset-conversion-scripts.git</url>
+		<developerConnection>scm:git:git@github.com:freme-project/dataset-conversion-scripts.git</developerConnection>
+	</scm>
 </project>
